@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sign_up.css">
+    <link rel="stylesheet" href="homepage.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign IN</title>
+</head>
+<body>
+    <div class="header">
+
+        <div class="logobox "> <img id="logo" src="./photos/logo1.png" alt="logo ">
+            <p id="name">KAPI KITAB</p>
+        </div>
+        <div class="top-section">
+    
+            <div class="nav-sec"> 
+                <div class="nav-link">
+                    <div class="A"><a href="homepage.html">HOME</a></div>
+                    <div class="A"><a href="login.html">Log In</a></div>
+                    <div class="A"><a href="#your-order">Your Book</a></div>
+                </div>
+                
+            </div>
+                 <input class="search-bar" type="text" placeholder="Search Here...">
+        </div>
+        </div>
+    </div>
+    <form action="" class="form" >
+<fieldset class="fieldset">
+    <legend>SIGN IN</legend>
+   
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email" placeholder="Enter email..">
+     <br><br>
+     <label for="password">Password</label>
+     <input type="password" id="password" placeholder="enter password">
+     <br>
+      <input type="checkbox" onclick="showpassword()">showpassword
+      <br><br>
+      <button onclick="" class="button">log in</button> 
+       <br>
+ NO Account?<a class="sign-link" href="sign_up.html">Create New </a>
+</fieldset>
+   
+
+<script>
+    function showpassword(){
+         
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+            x.type = "text";
+        } 
+        else {
+            x.type = "password";
+        }
+        var y = document.getElementById("confirm-password");
+        if (y.type === "password") {
+            y.type = "text";
+        } else {
+            y.type = "password";
+        }
+  
+    }
+</body>
+</html>
