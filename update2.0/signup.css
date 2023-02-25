@@ -1,0 +1,37 @@
+.form{
+    padding: 30px;
+    background-color:green;
+    width: 240px;
+   
+    margin-top:1%;
+    margin-left: 40%;
+    color: white;
+    font-size: larger;
+}
+
+input{
+    height: 30px;
+}
+ 
+.fieldset{
+    padding: 20px;
+}
+
+.sign-link{
+    font-size:14px;
+    color:blue
+}
+
+.button{
+    
+    width: 140px;
+    padding: 6px 10px;
+    background-color:red;
+    border: solid white 2px;
+    color: white;
+    font-size: large;
+    border-radius: 40px;
+    margin-left: 25px;
+    box-shadow: 0 0 7px black;
+
+}

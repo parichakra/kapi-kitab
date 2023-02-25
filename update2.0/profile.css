@@ -1,0 +1,22 @@
+img{
+    border: 5px solid rgb(57, 105, 79);
+    border-radius: 20px;
+    padding: 0px;
+    width: 200px;
+}
+#photo{
+background-color: rgb(77, 126, 100);
+background-attachment: fixed;
+position: absolute;
+background-repeat: no-repeat;
+height:450px;
+width:300px;   
+
+}
+#text{ 
+background-color:aliceblue;
+height:350px;
+width:600px;
+position: absolute;
+left:350px;
+}

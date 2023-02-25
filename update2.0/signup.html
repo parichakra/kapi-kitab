@@ -1,21 +1,18 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="home.css">
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign IN</title>
+    <title>Sign_up</title>
 </head>
-<body>
+<body >
     <div class="header">
 
         <div class="logobox "> <img id="logo" src="logo1.png" href="home.html" alt="logo ">
-            <p id="name"></p>
+            
         </div>
         <div class="top-section">
     
@@ -33,19 +30,24 @@
     </div>
     <form action="" class="form" >
 <fieldset class="fieldset">
-    <legend>SIGN IN</legend>
-   
+    <legend>SIGN UP</legend>
+    <label for="fullname">FULLNAME</label>
+    <input type="text" name="fullname" id="fullname" placeholder="Enter fullname..">
+     <br><br>
      <label for="email">Email</label>
      <input type="email" name="email" id="email" placeholder="Enter email..">
      <br><br>
      <label for="password">Password</label>
      <input type="password" id="password" placeholder="enter password">
      <br>
+     <label for="confirm-password">confirm Password</label>
+     <input type="password" id="confirm-password" placeholder="enter password">
+     <br>
       <input type="checkbox" onclick="showpassword()">showpassword
       <br><br>
-      <button onclick="" class="button">log in</button> 
+      <button onclick="" class="button">Sign Up</button>
        <br>
- NO Account?<a class="sign-link" href="signup.html">Create New </a>
+       Have an account?<a class="sign-link" href="login.html">Sign in</a>
 </fieldset>
    
 
@@ -67,6 +69,7 @@
         }
   
     }
-    </script>
+
+</script>
 </body>
 </html>

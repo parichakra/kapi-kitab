@@ -1,0 +1,13 @@
+
+
+@media (max-width:900px) {
+    .div1{ grid-template-columns: 1fr 1fr 1fr ;}
+    .div2{color: red;}
+    
+}
+@media (max-width:750px) {
+
+    .div1{ 
+        
+        grid-template-columns: 1fr 1fr  ;}
+}
