@@ -1,27 +1,25 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="home.css">
-    
-    
+   
+    <title>Sign_up</title>
 </head>
-<body>
+<body >
     <div class="header">
 
         <div class="logobox "> <a  href="home.html"><img id="logo" src="logo1.png"  alt="logo "></a>
-            <!-- <p id="name"></p> -->
+            
         </div>
         <div class="top-section">
     
             <div class="nav-sec"> 
                 <div class="nav-link">
-                    <div class="Abc"><a href="home.html">Home</a></div>
+                    <div class="Abc"><a href="home.html">HOME</a></div>
                    
                     <div class="Abc"><a href="book.html">library</a></div>
-                    <div class="Abc"><a href="login.html">Log In/out</a></div>
+                    <div class="Abc"><a href="login.html">login/out</a></div>
                 </div>
                 
             </div>
@@ -29,23 +27,26 @@
         </div>
         </div>
     </div>
-
-
     <form action="" class="form" >
-    <fieldset class="fieldset">
-    <legend>LOG IN</legend>
-   
+<fieldset class="fieldset">
+    <legend>SIGN UP</legend>
+    <label for="fullname">FULLNAME</label>
+    <input type="text" name="fullname" id="fullname" placeholder="Enter fullname..">
+     <br><br>
      <label for="email">Email</label>
      <input type="email" name="email" id="email" placeholder="Enter email..">
      <br><br>
      <label for="password">Password</label>
      <input type="password" id="password" placeholder="enter password">
      <br>
+     <label for="confirm-password">confirm Password</label>
+     <input type="password" id="confirm-password" placeholder="enter password">
+     <br>
       <input type="checkbox" onclick="showpassword()">showpassword
       <br><br>
-      <button onclick="" class="button">log in</button> 
+      <button onclick="" class="button">Sign Up</button>
        <br>
- NO Account?<a class="sign-link" href="signup.html">Create New </a>
+       Have an account?<a class="sign-link" href="login.html">Sign in</a>
 </fieldset>
    
 
@@ -67,6 +68,7 @@
         }
   
     }
-    </script>
+
+</script>
 </body>
 </html>
